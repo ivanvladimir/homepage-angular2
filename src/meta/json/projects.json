@@ -1,0 +1,389 @@
+[
+  {
+    "agency": {
+      "link": "http://ltl.inaoep.mx/RedTTL/index.html", 
+      "name": "Red de Tem\u00e1tica en Tecnolog\u00edas del Lenguaje"
+    }, 
+    "codename": {
+      "en": "Irony in Spanish tweets", 
+      "es": "Iron\u00eda en tweets en espa\u00f1ol"
+    }, 
+    "name": {
+      "en": "Verification of irnony in short texts", 
+      "es": "Verificaci\u00f3n de iron\u00eda en textos cortos"
+    }, 
+    "role": {
+      "en": "Cordinator", 
+      "es": "Coordinador"
+    }, 
+    "type": "oficial", 
+    "years": 2015
+  }, 
+  {
+    "agency": {
+      "link": "https://www.auf.org/bureau/bureau-ameriques/", 
+      "name": "AUF Bureau Ameriques"
+    }, 
+    "codename": {
+      "en": "Golfred", 
+      "es": "Golfred"
+    }, 
+    "link": "http://lipn.univ-paris13.fr/rcln/wiki/index.php/Machine_reading_for_narrative_generation_of_spatial_experiences_in_service_robots", 
+    "name": {
+      "en": "Machine reading for narrative generation of spatial experiences in service robots (PIRAT-AUF)", 
+      "es": "Generaci\u00f3n de relatos de experiencias espaciales en robots de servicio por extracci\u00f3n de conocimiento a partir de textos (PIRAT-AUF Latin)"
+    }, 
+    "role": {
+      "en": "Text generation", 
+      "es": "Generaci\u00f3n de textos"
+    }, 
+    "type": "oficial", 
+    "years": "2015-2016"
+  }, 
+  {
+    "agency": {
+      "link": "http://naacl.org/calls/emerging_regions/", 
+      "name": "NAACL Emerging Regions Funding"
+    }, 
+    "codename": {
+      "en": "Jakat\u00f3n 2015", 
+      "es": "Jakat\u00f3n 2015"
+    }, 
+    "name": {
+      "en": "First Natural Language Processing hackaton in Mexico", 
+      "es": "Primer hackat\u00f3n de Procesamiento de Lenguaje Natural en M\u00e9xico"
+    }, 
+    "role": {
+      "en": "Organizer", 
+      "es": "Organizador"
+    }, 
+    "type": "oficial", 
+    "years": 2015
+  }, 
+  {
+    "agency": {
+      "link": "http://www.icyt.df.gob.mx/", 
+      "name": "SECITI (prev. ICYTDF)"
+    }, 
+    "codename": {
+      "en": "Golem-III in Universum", 
+      "es": "Golem-III en Universum"
+    }, 
+    "name": {
+      "en": "Golem-III: A robot guide for the Universum museum (PICCO12-024)", 
+      "es": "Golem-III: Un robot gu\u00eda para el museo Universum (PICCO12-024)"
+    }, 
+    "role": {
+      "en": "In charge of computational linguistic modules", 
+      "es": "Encargado de los m\u00f3dulos de ling\u00fc\u00edstica computacional"
+    }, 
+    "type": "oficial", 
+    "years": "2013-"
+  }, 
+  {
+    "agency": {
+      "link": "http://dgapa.unam.mx/html/papiit/papit.html", 
+      "name": "PAPIIT-UNAM"
+    }, 
+    "codename": {
+      "en": "Vision and arms of Golem-III", 
+      "es": "Visi\u00f3n y brazos en Golem-III"
+    }, 
+    "name": {
+      "en": "Object recognition and manipulation module for Golem (IN107513)", 
+      "es": "Sistema de reconocimeinto y manipulaci\u00f3n de objetos para el robot Golem (IN107513)"
+    }, 
+    "role": {
+      "en": "Responsable of computational linguistic modules", 
+      "es": "Encargado de los m\u00f3dulos de ling\u00fc\u00edstica computacional"
+    }, 
+    "type": "oficial", 
+    "years": "2013-"
+  }, 
+  {
+    "agency": {
+      "link": "http://www.conacyt.mx/", 
+      "name": "CONACyT"
+    }, 
+    "codename": {
+      "en": "Golem-II+", 
+      "es": "Golem-II+"
+    }, 
+    "link": "http://golem.iimas.unam.mx/golemii.php?lang=en&sec=robots", 
+    "name": {
+      "en": "The Golem-II robot: A situated conversational assistant with spoken language and computer vision (81965)", 
+      "es": "El robot Golem-II: Un asistente conversacional situado con lenguaje hablado y visi\u00f3n computacional (81965)"
+    }, 
+    "type": "oficial", 
+    "years": "2009-2012"
+  }, 
+  {
+    "agency": {
+      "link": "http://dgapa.unam.mx/html/papiit/papit.html", 
+      "name": "PAPIIT-UNAM"
+    }, 
+    "codename": {
+      "en": "Language in Golem-II+", 
+      "es": "Lenguaje en Golem-II+"
+    }, 
+    "link": "http://golem.iimas.unam.mx/golemii.php?lang=en&sec=robots", 
+    "name": {
+      "en": "Development of a stochastic models for semantic processing in the Golem Robot with a minimum labelled corpus (IN115710-3)", 
+      "es": "Desarrollo de modelos de procesamiento est\u00f3castico para el robot Golem con un corpus con etiquetaci\u00f3n m\u00ednima (IN115710-3)"
+    }, 
+    "role": {
+      "en": "Responsable of computational linguistic modules", 
+      "es": "Encargado de los m\u00f3dulos de ling\u00fc\u00edstica computacional"
+    }, 
+    "type": "oficial", 
+    "years": "2010-2012"
+  }, 
+  {
+    "codename": {
+      "en": "Guess the Card", 
+      "es": "Adivina la Carta"
+    }, 
+    "extra_html": {
+      "en": "in colaboration with the <a href=\"http://www.universum.unam.mx/\">Universum museum</a>", 
+      "es": "en colaboraci\u00f3n con el <a href=\"http://www.universum.unam.mx/\">museo Universum</a>"
+    }, 
+    "link": "http://golem.iimas.unam.mx/gtc.php?lang=en&sec=robots", 
+    "name": {
+      "en": "Golem-Universum: Guess the card", 
+      "es": "Golem-Universum: Adivina la carta"
+    }, 
+    "type": "oficial", 
+    "years": "2009-2010"
+  }, 
+  {
+    "codename": {
+      "en": "SemEval 2016: LIPN-IIMAS", 
+      "es": "SemEval 2016: LIPN-IIMAS"
+    }, 
+    "group": "Jorge Garcia/LIPN-Paris 13, Davide Buscaldi/LIPN-Paris 13", 
+    "link": "http://lipn.univ-paris13.fr/rcln/wiki/index.php/Semeval_2015", 
+    "name": {
+      "en": "Semantic textual similarity for SemEval 2016", 
+      "es": "Similaridad sem\u00e1ntica en SemEval 2016"
+    }, 
+    "type": "collaboration", 
+    "years": "2015-2016"
+  }, 
+  {
+    "codename": {
+      "en": "Inference in chain of topics", 
+      "es": "Inferencia en cadenas de  t\u00f3picos"
+    }, 
+    "group": "Daniel Gonz\u00e1les/PCIC-UNAM, Luis Pineda/IIMAS-UNAM", 
+    "name": {
+      "en": "Inference in chain of topics", 
+      "es": "Inferencia en cadenas de t\u00f3pics "
+    }, 
+    "type": "collaboration", 
+    "years": "2015-216"
+  }, 
+  {
+    "codename": {
+      "en": "@menosdias", 
+      "es": "@menosdias"
+    }, 
+    "group": "Jorge Garcia/LIPN-Paris 13, Davide Buscaldi/LIPN-Paris 13", 
+    "link": "http://lipn.univ-paris13.fr/rcln/wiki/index.php/An_information_extraction_method_for_assisting_a_citizen_count_of_violent_events_in_Mexico", 
+    "name": {
+      "en": "Extraction of violent events in Mexico with civil organizations", 
+      "es": "Un m\u00e9todo de extracci\u00f3n de informaci\u00f3n para cuantificar eventos violentos en M\u00e9xico con organizaciones civiles"
+    }, 
+    "type": "collaboration", 
+    "years": "2015-216"
+  }, 
+  {
+    "codename": {
+      "en": "SemEval 2015: LIPN-IIMAS", 
+      "es": "SemEval 2015: LIPN-IIMAS"
+    }, 
+    "group": "Jorge Garcia/LIPN-Paris 13, Davide Buscaldi/LIPN-Paris 13, Isaac Rodr\u00edguez/FC-UNAM", 
+    "link": "http://lipn.univ-paris13.fr/rcln/wiki/index.php/Semeval_2015", 
+    "name": {
+      "en": "SOPA: Semantic similarity for SemEval 2015", 
+      "es": "SOPA: Similaridad sem\u00e1ntica en SemEval 2015"
+    }, 
+    "type": "collaboration", 
+    "years": "2014-2015"
+  }, 
+  {
+    "codename": {
+      "en": "Corpora for speech recognition", 
+      "es": "Corpus para el reconocimiento de voz"
+    }, 
+    "group": "Carlos Hern\u00e1ndez/FI-UNAM", 
+    "name": {
+      "en": "Support for the recollection and evaluation of speech recognition corpora", 
+      "es": "Apoyo para la elaboraci\u00f3n y evaluaci\u00f3n de corpus de reconocimiento de voz"
+    }, 
+    "type": "collaboration", 
+    "years": "2014-"
+  }, 
+  {
+    "codename": {
+      "en": "Young chatbot", 
+      "es": "Chatbot joven"
+    }, 
+    "group": "Esa\u00fa Villatoro/UAM-Cuajimalpa, \u00c1ngel Callejas/UAM-Cuajimalpa", 
+    "name": {
+      "en": "\"Chatbot\" to support the identification of sexual predators in Internet", 
+      "es": "\"Chatbot\" para el apoyo en la Identificaci\u00f3n de Depredadores Sexuales en Internet"
+    }, 
+    "type": "collaboration", 
+    "years": "2014-2015"
+  }, 
+  {
+    "codename": {
+      "en": "Topic discovery", 
+      "es": "Descubrimiento de t\u00f3pics"
+    }, 
+    "group": "Gibran Fuentes/IIMAS-UNAM", 
+    "name": {
+      "en": "Sampled Min-Hashing", 
+      "es": "Sampled Min-Hashing"
+    }, 
+    "type": "collaboration", 
+    "years": "2013-"
+  }, 
+  {
+    "codename": {
+      "en": "Robot Audition", 
+      "es": "Audici\u00f3n rob\u00f3tica"
+    }, 
+    "group": "Caleb Rasc\u00f3n/IIMAS-UNAM, Gibran Fuentes/IIMAS-UNAM", 
+    "name": {
+      "en": "Light multi-direction of arrival tracking", 
+      "es": "Seguidor ligero de multi direcciones de arribop"
+    }, 
+    "type": "collaboration", 
+    "years": "2013-"
+  }, 
+  {
+    "codename": {
+      "en": "Gestures system for gestures in Golem-III", 
+      "es": "Systema para gestos en el robot Golem-III"
+    }, 
+    "group": "H\u00e9ctor Murrieta", 
+    "name": {
+      "en": "Gestures identifications for robot Golem-III", 
+      "es": "Sistema para la identificaci\u00f3n de gestos en el robot Golem-III"
+    }, 
+    "type": "student", 
+    "years": 2015
+  }, 
+  {
+    "codename": {
+      "en": "Mexican double entendre corpus", 
+      "es": "Corpus de albur mexicano"
+    }, 
+    "group": "Michelle G\u00fazman", 
+    "name": {
+      "en": "Recopilation of Mexican double entendre corpus from Facebook dialogues", 
+      "es": "Recopilaci\u00f3n de corpus del albur mexicano de di\u00e1logos de Facebook"
+    }, 
+    "type": "student", 
+    "years": 2015
+  }, 
+  {
+    "codename": {
+      "en": "Author Identification (2015)", 
+      "es": "Identificaci\u00f3n de autor (2015)"
+    }, 
+    "group": "Josue Martinez, Paola Ledesma, Gibran Fuentes", 
+    "link": "http://github.com/ivanvladimir/authorid", 
+    "name": {
+      "en": "Author identication in the context of PAN15", 
+      "es": "Identificaci\u00f3n de autor en el contexto de PAN15"
+    }, 
+    "type": "student", 
+    "years": 2015
+  }, 
+  {
+    "codename": {
+      "en": "Author Profilling (2015)", 
+      "es": "Perfilado de autor (2015)"
+    }, 
+    "group": "Alonso Palomino, Adolfo Camacho, Ricardo Fierro, Rodr\u00edgo Sanabria", 
+    "link": "http://github.com/ivanvladimir/authorid", 
+    "name": {
+      "en": "Author profilling in the context of PAN15", 
+      "es": "Perfilado de autor en el contexto de PAN15"
+    }, 
+    "type": "student", 
+    "years": 2015
+  }, 
+  {
+    "codename": {
+      "en": "Author Identification (2014)", 
+      "es": "Identificaci\u00f3n de autor (2014)"
+    }, 
+    "group": "Cristhian Mayor, Josue Martinez, Paola Ledesma, \u00c1ngel Toledo, Rodrigo Guti\u00e9rrez, Gibran Fuentes", 
+    "link": "http://github.com/ivanvladimir/authorid", 
+    "name": {
+      "en": "Author identication in the context of PAN14", 
+      "es": "Identificaci\u00f3n de autor en el contexto de PAN14"
+    }, 
+    "type": "student", 
+    "years": 2014
+  }, 
+  {
+    "codename": {
+      "en": "Author Identification (2013)", 
+      "es": "Identificaci\u00f3n de autor (2013)"
+    }, 
+    "group": "Paola Ledesma, Gabriela Jasso, Gibran Fuentes, \u00c1ngel Toledo", 
+    "link": "https://github.com/ivanvladimir/authorid/releases/tag/v0.1", 
+    "name": {
+      "en": "Author identication in the context of PAN13", 
+      "es": "Identificaci\u00f3n de autor en el contexto de PAN13"
+    }, 
+    "type": "student", 
+    "years": 2013
+  }, 
+  {
+    "codename": {
+      "en": "Bird singing idenfication in the context of LifeClef 2015", 
+      "es": "Identificaci\u00f3n de aves a trav\u00e9s de cantos en el contexto de LifeClef 2015"
+    }, 
+    "group": "Esa\u00fa Villareal, Frine Solano, Adrian Espino", 
+    "link": "http://golem.iimas.unam.mx/git/audiogolem", 
+    "name": {
+      "en": "The bird specie is dientified by recordings of the singing", 
+      "es": "Se identifica a la especie de aves a trav\u00e9s de sus cantos"
+    }, 
+    "type": "student", 
+    "years": 2015
+  }, 
+  {
+    "codename": {
+      "en": "Bird singing idenfication in the context of LifeClef 2014", 
+      "es": "Identificaci\u00f3n de aves a trav\u00e9s de cantos en el contexto de LifeClef 2014"
+    }, 
+    "group": "Esa\u00fa Villareal, Rodr\u00edgo Mart\u00ednez, Laura Silva, Gibran Fuentes", 
+    "link": "http://golem.iimas.unam.mx/git/audiogolem", 
+    "name": {
+      "en": "The bird specie is dientified by recordings of the singing", 
+      "es": "Se identifica a la especie de aves a trav\u00e9s de sus cantos"
+    }, 
+    "type": "student", 
+    "years": 2014
+  }, 
+  {
+    "codename": {
+      "en": "Bird singing identification", 
+      "es": "Identificaci\u00f3n de aves a trav\u00e9s de cantos"
+    }, 
+    "group": "Esa\u00fa Villareal", 
+    "link": "http://golem.iimas.unam.mx/git/audiogolem", 
+    "name": {
+      "en": "The bird specie is dientified by recordings of the singing. The prototipe MIAA is used to capture the singing", 
+      "es": "Se identifica a la especie de aves a trav\u00e9s de sus cantos, los cuales son capturados por el prototipo MIIA"
+    }, 
+    "type": "student", 
+    "years": 2013
+  }
+]

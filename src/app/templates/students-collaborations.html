@@ -1,0 +1,19 @@
+<div class="col-lg-12">
+<nav class="nav nav-inline">
+		<a class="nav-link" [routerLink]="['/teaching']">Courses</a>
+		<a class="nav-link" [routerLink]="['/theses']">Theses</a>
+		<a class="nav-link" [routerLink]="['/students']">Students</a>
+		<a class="nav-link disabled" [routerLink]="['/students_col']">Students collaborations</a>
+</nav>
+</div>
+
+<br/>
+<br/>
+
+
+<br/>
+<ul>
+<div *ngFor="let student of students | async ">
+	<my-student [student]="student" [lang]="lang"></my-student>
+</div>
+</ul>

@@ -1,0 +1,16 @@
+<ul>
+	<h3 class="text-md-center"><strong>Formal projects</strong></h3>
+	<div *ngFor="let proj of projects | async | myKeyValue:'type':'oficial'">
+		<p><my-project [proj]="proj" [lang]="lang"></my-project></p> 
+	</div>
+	<h3 class="text-md-center"><strong>Collaborations</strong></h3>
+	<div *ngFor="let proj of projects | async | myKeyValue:'type':'collaboration'">
+		<p><my-project [proj]="proj" [lang]="lang"></my-project></p> 
+	</div>
+	<h3 class="text-md-center"><strong>Student's projects</strong></h3>
+	<div *ngFor="let proj of projects | async | myKeyValue:'type':'student'">
+		<p><my-project [proj]="proj" [lang]="lang"></my-project></p>
+	</div>
+
+</ul>
+

@@ -1,0 +1,40 @@
+<div class="row">
+<div *ngFor="let post of posts | slice:(page-1)*10:page*10">
+		
+		<div class="col-lg-12">
+		<h1><a [routerLink]="['/post',post.file]">{{post.title}}</a></h1>
+
+		<p>
+		{{post.intro}}
+		</p>
+
+		<br/>
+		</div>
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12 text-center">
+<nav>
+  <ul class="pagination">
+    <li>
+      <a [routerLink]="['/blog',1]" aria-label="First">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+	<li *ngFor="let page of pages">
+    <a [routerLink]="['/blog',page+1]">{{page+1}}</a>
+	</li>
+    <li>
+      <a [routerLink]="['/blog',last]" aria-label="Last">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+</div>
+</div>
+
+

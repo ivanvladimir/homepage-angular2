@@ -1,0 +1,17 @@
+<div class="col-lg-12">
+<nav class="nav nav-inline">
+		<a class="nav-link disabled" [routerLink]="['/software']">Software</a>
+		<a class="nav-link" [routerLink]="['/corpora']">Corpora</a>
+</nav>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+
+<ul>
+	<div *ngFor="let sw of data | async ">
+		<my-sw [sw]="sw" [lang]="lang"></my-sw> 
+	</div>
+</ul>

@@ -1,0 +1,27 @@
+<div class="row">
+
+<div class="col-md-6">
+<nav class="nav nav-inline">
+		<a class="nav-link"  [routerLink]="['/publications']">Type</a>
+		<a class="nav-link disabled"  [routerLink]="['/publications_year']">Year</a>
+		<a class="nav-link"  [routerLink]="['/own_theses']">Theses</a>
+		<a class="nav-link"  href="https://scholar.google.com.mx/citations?user=r4oJo3kAAAAJ&hl=en" target="_blank">Google scholar</a>
+</nav>
+</div>
+
+<div class="col-lg-6 text-md-right">
+<my-search-box (update)="onUpdate($event)"></my-search-box> 
+</div>
+</div>
+<br/>
+<ul>
+	<div *ngFor="let pubs of getGroups(publications|async)">
+    	<h3 class="text-md-center"><strong>{{ pubs['labels']['en'] }}</strong></h3>
+		<div *ngFor="let pub of pubs['publications'] | mySearch : term">
+			<p>
+			<my-publication [pub]="pub"></my-publication> 
+			</p>
+		</div>
+	</div> 
+</ul>
+

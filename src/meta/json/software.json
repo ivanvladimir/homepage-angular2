@@ -1,0 +1,230 @@
+[
+  {
+    "codename": {
+      "en": "Topic discovery", 
+      "es": "Descubrimiento de t\u00f3picos"
+    }, 
+    "description": {
+      "en": "Experiments for topic discovery with NIPS, 20 news group, Reuters and Wikipedia", 
+      "es": "Experimentos para descubrimiento de t\u00f3picos en NIPS, 20 news group, Reuters and Wikipedia"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "https://github.com/gibranfp/SMH-Topic-Discovery", 
+    "name": {
+      "en": "Large scale topic discovery", 
+      "es": "Descubrimiento de t\u00f3picos a gran escala"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "Sampled-MinHashing", 
+      "es": "Sampled-MinHashing"
+    }, 
+    "description": {
+      "en": "Library for Sampled Min-Hashing (c, command-line and python)", 
+      "es": "Librer\u00eda para Sampled Min-Hashing (c, command-line y python)"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "https://github.com/gibranfp/Sampled-MinHashing", 
+    "name": {
+      "en": "Sampled Min-Hashing library", 
+      "es": "Librer\u00eda de Sampled Min-Hashing"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "@menosdias", 
+      "es": "@menosdias"
+    }, 
+    "description": {
+      "en": "Scripts to crawl, read and analyse @menosdias dataset", 
+      "es": "Scrips para obtener, leer y analisar el datset de @menosdias"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "https://github.com/ivanvladimir/menosdias", 
+    "name": {
+      "en": "System of an\u00e1lisis of tweets and blog post for @menosdias", 
+      "es": "Sistema de an\u00e1lisis de tweets y blog posts para @menosdias"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "Jakat\u00f3n PLN", 
+      "es": "Jakat\u00f3n NLP"
+    }, 
+    "description": {
+      "en": "Main libraries for NLP hackat\u00f3n in M\u00e9xico", 
+      "es": "Modulos principales para el hackat\u00f3n de PLN en M\u00e9xico"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "https://github.com/jakaton", 
+    "name": {
+      "en": "Libreries for Jakaton", 
+      "es": "Librerias para Jakat\u00f3n"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "GolemPoll", 
+      "es": "GolemPoll"
+    }, 
+    "description": {
+      "en": "Weve interface to survey users about the preference of a robot face", 
+      "es": "Interfaz web para encuestar sobre la preferencia de una cara rob\u00f3tica"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "https://github.com/ivanvladimir/golempoll", 
+    "name": {
+      "en": "Survey system for robot face preference", 
+      "es": "Sistema para sacar encuestas sobre preferencia de cara rob\u00f3tica"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "IronyLabeller", 
+      "es": "IronyLabeller"
+    }, 
+    "description": {
+      "en": "Web interface to label the polarity of tweets", 
+      "es": "Interfaz web para etiquetar manualmente la polaridad de tweets"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "https://github.com/ivanvladimir/ironylabeller", 
+    "name": {
+      "en": "Manual verification of polarity of tweets", 
+      "es": "Sistema de verificaci\u00f3n manual de polaridad en tweets"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "authorprof", 
+      "es": "authorprof"
+    }, 
+    "description": {
+      "en": "System for the author identification", 
+      "es": "Sistema para la identificaci\u00f3n de autores"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "https://github.com/ivanvladimir/authorprof", 
+    "name": {
+      "en": "Author Profiling System", 
+      "es": "Sistema de Perfilado de Autor"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "golemaudio", 
+      "es": "golemaudio"
+    }, 
+    "description": {
+      "en": "Audio processing library in python. This library is extensively used in the Golem Group", 
+      "es": "Libreria para el procesamiento de audio en python usada en el Grupo Golem"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "https://golem.iimas.unam.mx/git/golemaudio", 
+    "name": {
+      "en": "Audio Golem Library", 
+      "es": "Libreria de audio de grupo Golem"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "SitLog examples", 
+      "es": "SitLog ejemplos"
+    }, 
+    "description": {
+      "en": "Examples of dialogue models for SitLog for programing Golem course", 
+      "es": "Ejemplos de modelos de di\u00e1logo par SitLog para clase de programaci\u00f3n de Golem"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "https://github.com/ivanvladimir/SitLogExamples", 
+    "name": {
+      "en": "Examples of SitLog", 
+      "es": "Ejemplos de SitLog"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "authorid", 
+      "es": "authorid"
+    }, 
+    "description": {
+      "en": "System for the author identification", 
+      "es": "Sistema para la identificaci\u00f3n de autores"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "https://github.com/ivanvladimir/authorid", 
+    "name": {
+      "en": "Author Identification System", 
+      "es": "Sistema de Identificaci\u00f3n de Autor"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "Corpus Recorder", 
+      "es": "Grabador de corpus"
+    }, 
+    "description": {
+      "en": "Tool for recording a read corpus, it provides client/server fashion to display the sentences to be read", 
+      "es": "Herramienta para la grabaci\u00f3n de corpus de audio leido, prove\u00e9 una arquitectura cliente/servidor para desplegar las oraciones a leer"
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/gpl.html", 
+      "name": "GPL 3.0"
+    }, 
+    "link": "http://code.google.com/p/audio-corpus-recorder/", 
+    "name": {
+      "en": "Audio Corpus Recorder Tool", 
+      "es": "Herramienta de grabado de corpus de audio"
+    }
+  }, 
+  {
+    "codename": {
+      "en": "thebeast", 
+      "es": "thebeast"
+    }, 
+    "description": {
+      "en": "markov the beast is a Statistical Relational Learning software based on Markov Logic, my contribution were the MLN models for semantic processing.", 
+      "es": "markov the beast es un software de aprendizaje estad\u00edstico relacional basado en L\u00f3gica de Markov, mi contribuci\u00f3n fue en la creaci\u00f3n de modelos MLN para procesamiento sem\u00e1ntico."
+    }, 
+    "license": {
+      "link": "http://www.gnu.org/licenses/lgpl.html", 
+      "name": "LGPL"
+    }, 
+    "link": "http://code.google.com/p//", 
+    "name": {
+      "en": "markov the beast", 
+      "es": "markov the beast"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "author": "Ivan Vladimir Meza Ruiz", 
+  "date": "Fri, 10 Jul 2015 00:00:00 GMT", 
+  "file": "curso_aprendizaje_automatico_audio_s6", 
+  "language": "es", 
+  "license": "ccbysa", 
+  "page": true, 
+  "summary": "This is an introduction to numpy and MFCCn", 
+  "title": "Representaci\u00f3n de un archivo de audio", 
+  "type": "teach"
+}

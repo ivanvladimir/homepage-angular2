@@ -1,0 +1,55 @@
+
+<div class="row">
+<div class="col-lg-12">
+<h1> {{ post.title }}</h1>
+<hr style="height:1px;border:none;color:#333;background-color:#333;margin-bottom:15px;" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12 text-justify">
+<div  #homepage_content  [innerHTML]=" text | sanitizeHtml">
+</div>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class="row">
+<hr style="height:1px;border:none;color:#333;background-color:#333;margin-bottom:15px;" />
+<div class="col-lg-6 text-left">
+<span class="author vcard"><span class="fn">Author: {{ post.author }}</span></span> 
+</div>
+
+
+<div class="col-lg-6 text-right">
+<span *ngFor="let tag of post.tags">
+<a class="label label-primary"  [routerLink]="['/tag',tag,1]"  >{{tag}}</a>
+</span>
+</div>
+</div>
+
+<br/>
+<br/>
+
+
+<div class="row">
+<div class="col-lg-6">
+<a *ngIf="prev_post && prev_post['title_small']"  [routerLink]="['/post',prev_post.file]" class="btn btn-info" role="button">Previous: {{prev_post['title_small']}}</a>
+<a *ngIf="prev_post && !prev_post['title_small']" [routerLink]="['/post',prev_post.file]" class="btn btn-info" role="button">Previous: {{prev_post['title']}}</a>
+</div>
+<div class="col-lg-6  text-right">
+<a *ngIf="next_post && next_post['title_small']"  [routerLink]="['/post',next_post.file]" class="btn btn-info" role="button">Next: {{next_post['title_small']}}</a>
+<a *ngIf="next_post && !next_post['title_small']" [routerLink]="['/post',next_post.file]" class="btn btn-info" role="button">Next: {{next_post['title']}}</a>
+</div>
+</div>
+
+
+<br/>
+<br/>
+<disqus [shortname]="'ivanvladimir'" [identifier]="path"></disqus>
+
+

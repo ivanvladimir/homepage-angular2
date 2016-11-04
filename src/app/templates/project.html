@@ -1,0 +1,12 @@
+
+<div class="row">
+<div class="large-12 columns">
+	<li>
+		<strong *ngIf="proj.link" ><a href="{{proj.link}}">{{proj.codename[lang]}}</a> </strong>
+		<strong *ngIf="!proj.link">{{proj.codename[lang]}}</strong> ({{proj.years}}) <br/>
+	  	{{proj.name[lang]}} <br/> 
+	    {{proj.group ? 'In collaboration with ':''  }}<em *ngIf="proj.group" >{{proj.group}}</em>
+	    {{proj.agency ? 'Supported by' :''  }} <a *ngIf="proj.agency && proj.agency.link"  href="{{proj.agency.link}}}">{{proj.agency.name}}</a> 
+	</li>
+</div>
+</div>

@@ -1,0 +1,13 @@
+
+<div class="row">
+<div class="col-lg-12">
+<li>
+<p>
+{{thesis.name}} with the work <strong><a href="{{thesis.link}}">{{thesis.topic[lang]}}</a></strong> to obtain the degree <em>{{thesis.degree[lang]}}</em> from <a href="{{thesis.school.link}}">{{thesis.school.name}}</a>, 
+<span *ngIf="thesis.supervisor">in collaboration with {{thesis.supervisor}},</span>
+
+{{thesis.year}}.
+</p>
+</li>
+</div>
+</div>

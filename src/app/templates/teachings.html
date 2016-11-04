@@ -1,0 +1,28 @@
+
+<div class="col-lg-12">
+<nav class="nav nav-inline">
+		<a class="nav-link disabled" [routerLink]="['/teaching']">Courses</a>
+		<a class="nav-link" [routerLink]="['/theses']">Theses</a>
+		<a class="nav-link" [routerLink]="['/students']">Students</a>
+		<a class="nav-link" [routerLink]="['/students_col']">Students collaborations</a>
+</nav>
+</div>
+
+<br/>
+<br/>
+<div class="col-lg-12">
+<ul>
+	<h3 class="text-md-center">Courses</h3>
+	<div *ngFor="let course of teachings | async | myKeyValue:'type':'normal'">
+		<p>
+		<my-class [course]="course" [lang]="lang"></my-class> 
+		</p>
+	</div>
+	<h3 class="text-md-center">Online material</h3>
+	<div *ngFor="let course of teachings | async | myKeyValue:'type':'material'">
+		<p>
+		<my-class [course]="course" [lang]="lang"></my-class> 
+		</p>
+	</div>
+</ul>
+</div>
