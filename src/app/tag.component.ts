@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PostsService } from './posts.service';
 import { Subscription }   from 'rxjs/Subscription';
+import { Title }     from '@angular/platform-browser';
 
 @Component({
     selector: 'my-post',
@@ -17,12 +18,17 @@ export class TagComponent implements  OnInit {
     subscription: Subscription;
 
     constructor(private routeParams: ActivatedRoute,
-            private postsService: PostsService) {}
+            private postsService: PostsService,
+            private titleService: Title
+            ) {
+            this.titleService.setTitle("Tag -- Ivan Vladimir" );
+        }
 
     ngOnInit(){
         this.routeParams.params.subscribe( params => { 
             this.page = params['page'];
             this.tag = params['tag'];
+            this.titleService.setTitle(this.tag+" tag -- Ivan Vladimir" );
         this.postsService.getPosts().then(posts => {
             this.posts = [];
             for ( let post in posts['posts'] ) {

@@ -20,6 +20,7 @@ import { CorporaComponent } from './corpora.component';
 import { NotFoundComponent } from './not-found.component';
 import { HomeComponent } from './home.component';
 import { PostsService } from './posts.service';
+import { Title }     from '@angular/platform-browser';
 
 declare var ga:Function;
 
@@ -35,9 +36,11 @@ export class AppComponent {
   private currentRoute: string;
   constructor ( angulartics2: Angulartics2, 
                 angulartics2GoogleAnalytics: Angulartics2GoogleAnalytics,
-                postsService: PostsService
+                postsService: PostsService,
+                private titleService: Title
             ) {
         postsService.getPosts().then(posts =>this.posts = posts);
+        this.titleService.setTitle("Home -- Ivan Vladimir" );
   }
 }
 

@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import { Title }     from '@angular/platform-browser';
 
 @Component({
   selector: 'my-own-theses',
@@ -6,6 +7,12 @@ import {Component} from '@angular/core';
 })
 
 export class OwnThesesComponent {
+ constructor(
+            private titleService: Title
+  ) {
+    this.titleService.setTitle("Own theses -- Ivan Vladimir" );
+  }
+  
 }
 
 

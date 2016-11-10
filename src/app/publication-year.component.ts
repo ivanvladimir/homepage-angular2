@@ -3,6 +3,7 @@ import {PublicationComponent} from './publication.component';
 import {SearchPipe} from './search.pipe';
 import {SearchBoxComponent} from './search-box.component';
 import {DataService} from './data.service';
+import { Title }     from '@angular/platform-browser';
 
 @Component({
     selector: 'my-publications',
@@ -14,8 +15,11 @@ export class PublicationYearComponent {
   public lang: string = 'eng';
   public term = '';
   public publications;
-  constructor(private dataService: DataService) {
+  constructor(private dataService: DataService,
+            private titleService: Title
+  ) {
     this.publications = dataService.getJSON('publications.json');
+    this.titleService.setTitle("Publications per year -- Ivan Vladimir" );
   }
 
   getGroups ( pubs: string[] ) {
