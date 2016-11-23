@@ -69,7 +69,7 @@ type StoreType = {
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(routes, { useHash: true }),
+    RouterModule.forRoot(routes),
     Ng2DisqusModule,
     Angulartics2Module.forRoot()
   ],
