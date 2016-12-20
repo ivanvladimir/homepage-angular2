@@ -53,6 +53,7 @@
     "@angular/http": "^2.1.2",
     "@angularclass/hmr": "^1.2.1",
     "@angularclass/hmr-loader": "^3.0.2",
+    "angular2-linky": "^1.2.2",
     "angular2-template-loader": "^0.6.0",
     "angulartics2": "^1.1.12",
     "font-awesome": "^4.7.0",

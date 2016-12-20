@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { removeNgStyles, createNewHosts, createInputTransfer } from '@angularclass/hmr';
 import { Angulartics2Module } from 'angulartics2';
-import {Ng2DisqusModule } from 'ng2-disqus';
+import { Ng2DisqusModule } from 'ng2-disqus';
 import { Angulartics2GoogleAnalytics } from 'angulartics2/src/providers/angulartics2-ga';
 
 /*
@@ -45,7 +45,7 @@ import { SoftwareComponent } from './software.component';
 import { CorporaComponent } from './corpora.component';
 import { NotFoundComponent } from './not-found.component';
 import { PostsService } from './posts.service';
-
+import { ValueProvider } from '@angular/core';
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -62,7 +62,6 @@ type StoreType = {
 };
 
 
-
 @NgModule({
   bootstrap:    [ AppComponent ],
   imports: [
@@ -70,6 +69,7 @@ type StoreType = {
     FormsModule,
     HttpModule,
     RouterModule.forRoot(routes),
+    //RouterModule.forRoot(routes, {useHash: true}),
     Ng2DisqusModule,
     Angulartics2Module.forRoot()
   ],

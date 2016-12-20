@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 
 @Injectable()
 export class PostsService  {
-    private postsUrl = '/json/posts.json';
+    private postsUrl = 'json/posts.json';
 
     constructor( private http: Http ) {
     }

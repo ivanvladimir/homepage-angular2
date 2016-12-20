@@ -2,7 +2,10 @@
 <div class="row">
 <div class="large-12 columns">
 	<li>
-		{{course.role[lang]}} of <strong><a href="{{course.link}}">{{course.class[lang]}}</a></strong>
+		{{course.role[lang]}} of <strong>
+		<a *ngIf="course.link" [routerLink]="['/page',course.link]">{{course.class[lang]}}</a>
+		<a *ngIf="!course.link" href="{{course.link_external}}">{{course.class[lang]}}</a>
+		</strong>
 		<span  *ngIf="course.school"><a href="{{course.school.link}}">{{course.school.name[lang]}}</a></span>, {{course.year}}
 	</li>
 </div>

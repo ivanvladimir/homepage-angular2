@@ -5,10 +5,10 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class DataService {
-    private dataUrl = '/json/';
-    private postUrl = '/json/post/';
-    private pageUrl = '/json/page/';
-    private headerUrl = '/json/header/';
+    private dataUrl = 'json/';
+    private postUrl = 'json/post/';
+    private pageUrl = 'json/page/';
+    private headerUrl = 'json/header/';
     constructor(private http: Http){}
 
     getJSON (file: String) {
