@@ -7,6 +7,8 @@ import { removeNgStyles, createNewHosts, createInputTransfer } from '@angularcla
 import { Angulartics2Module } from 'angulartics2';
 import { Ng2DisqusModule } from 'ng2-disqus';
 import { Angulartics2GoogleAnalytics } from 'angulartics2/src/providers/angulartics2-ga';
+import { CollapseDirective } from 'ng2-bootstrap';
+
 
 /*
  * Platform and Environment providers/directives/pipes
@@ -73,7 +75,7 @@ type StoreType = {
     Ng2DisqusModule,
     Angulartics2Module.forRoot()
   ],
-  declarations: [ SoftwareComponent,CorporaComponent,StudentsComponent,BlogComponent,TagComponent,StudentsCollaborationsComponent,OwnThesesComponent,PageComponent,NotFoundComponent,ThesesComponent, HomeComponent, ProjectsComponent, TeachingsComponent, PublicationsComponent, AppComponent, KeyValue, KeysPipe, SearchPipe, SWComponent, SanitizeHtmlPipe, ThesisComponent,ClassComponent,StudentComponent,PublicationComponent, SearchBoxComponent, PublicationYearComponent,ProjectComponent,PostComponent],
+  declarations: [ SoftwareComponent,CorporaComponent,StudentsComponent,BlogComponent,TagComponent,StudentsCollaborationsComponent,OwnThesesComponent,PageComponent,NotFoundComponent,ThesesComponent, HomeComponent, ProjectsComponent, TeachingsComponent, PublicationsComponent, AppComponent, KeyValue, KeysPipe, SearchPipe, SWComponent, SanitizeHtmlPipe, ThesisComponent,ClassComponent,StudentComponent,PublicationComponent, SearchBoxComponent, PublicationYearComponent,ProjectComponent,PostComponent,CollapseDirective],
   providers: [ // expose our Services and Providers into Angular's dependency injection
     ENV_PROVIDERS,
     APP_PROVIDERS
@@ -81,6 +83,7 @@ type StoreType = {
 })
 
 export class AppModule {
+  public isCollapsed: boolean = true;
   constructor(public appRef: ApplicationRef, public appState: AppState) {}
 
   hmrOnInit(store: StoreType) {
